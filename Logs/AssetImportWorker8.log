@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7968 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/Kevin Velandia/Desktop/PROTECTOS UNITY/RETO2_CH2
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+57110
+Successfully changed project path to: C:/Users/Kevin Velandia/Desktop/PROTECTOS UNITY/RETO2_CH2
+C:/Users/Kevin Velandia/Desktop/PROTECTOS UNITY/RETO2_CH2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23580] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3653215214 [EditorId] 3653215214 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SRC20J2O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23580] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3653215214 [EditorId] 3653215214 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SRC20J2O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 156.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kevin Velandia/Desktop/PROTECTOS UNITY/RETO2_CH2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007550 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 244 ms
+Refreshing native plugins compatible for Editor in 83.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1074ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (336ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kevin Velandia\Desktop\PROTECTOS UNITY\RETO2_CH2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kevin Velandia\Desktop\PROTECTOS UNITY\RETO2_CH2\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.204 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1205ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (976ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3266 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (357.2 KB). Loaded Objects now: 3733.
+Memory consumption went from 122.8 MB to 122.5 MB.
+Total: 3.261100 ms (FindLiveObjects: 0.323500 ms CreateObjectMapping: 0.199000 ms MarkObjects: 2.656800 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1084609.820846 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset
+  artifactKey: Guid(6eb09a1750d2d4f609c0e79b804a9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset using Guid(6eb09a1750d2d4f609c0e79b804a9f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ad2773d0b34d107b7479674a9ef66f') in 0.134360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+  artifactKey: Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png using Guid(912bf47cb4f5f4c6ea43b7a8bd2eb0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834e1bb4b582c16def73b71fd6f9a6df') in 0.435188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
+  artifactKey: Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png using Guid(604c8e250817f485c97f85e8237f7524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0513d8b25bf1526d8759e271c63be7') in 0.036940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
+  artifactKey: Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png using Guid(04869052f46ba428caebe862513e3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5306bea0b594e28cfc150e2bc82926f') in 0.029038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png
+  artifactKey: Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllSkyFree/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png using Guid(e71fc492f440446b99875b8e1df890ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c788bb2418acfb97d2d18d4775a22b66') in 0.717031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.908367 seconds.
+  path: Assets/Models/RaceKit
+  artifactKey: Guid(74979e795871abf448c410bea3944dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit using Guid(74979e795871abf448c410bea3944dfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fda1882284d0ed5348fff5a2d910562') in 0.014616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.857087 seconds.
+  path: Assets/Models/RaceKit/Models
+  artifactKey: Guid(7c3f2d5e7097e0849a29a746bca318cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models using Guid(7c3f2d5e7097e0849a29a746bca318cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880cb6302ff8b7af8438ca8142a1e938') in 0.004109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.264273 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format
+  artifactKey: Guid(52347736d224fb540bd49553b51850ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format using Guid(52347736d224fb540bd49553b51850ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b1dde82a28d94c99aa49a61f4f9ec4') in 0.023023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055273 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/bannerTowerGreen.fbx
+  artifactKey: Guid(6ceb8c2b9b774c44f82f2cc9dfc2a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/bannerTowerGreen.fbx using Guid(6ceb8c2b9b774c44f82f2cc9dfc2a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d812f2bb4bc13cd592370b5bb4a6fd2') in 0.211465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/pitsGarageClosed.fbx
+  artifactKey: Guid(dad7438558e2bbe429e6596bb0f5ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/pitsGarageClosed.fbx using Guid(dad7438558e2bbe429e6596bb0f5ca2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0affc6a57d157c1de7dc2040d781dac5') in 0.124790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/camera_exclusive.fbx
+  artifactKey: Guid(c9578ea6ae2575e4987e624e3fbb135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/camera_exclusive.fbx using Guid(c9578ea6ae2575e4987e624e3fbb135f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b16d7076f3b4b6161bf6df314f7534c') in 0.070616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/overheadRoundColored.fbx
+  artifactKey: Guid(857642c75729bc145a2d125a3acf9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/overheadRoundColored.fbx using Guid(857642c75729bc145a2d125a3acf9b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab854e5f5175323cdf8d0f78e74f1177') in 0.055523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/grandStandAwning.fbx
+  artifactKey: Guid(e98c2f817ff8b5544b92eb1bdec6fef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/grandStandAwning.fbx using Guid(e98c2f817ff8b5544b92eb1bdec6fef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a16073733caa88105871417d280d0f') in 0.065082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/flagRed.fbx
+  artifactKey: Guid(11cbff9f72004d941844557399993295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/flagRed.fbx using Guid(11cbff9f72004d941844557399993295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c87d8c1d2abf4859eed22668060c67f') in 0.089171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/billboardDouble_exclusive.fbx
+  artifactKey: Guid(30ebd19300a9ca84aa92121ecea7b971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/billboardDouble_exclusive.fbx using Guid(30ebd19300a9ca84aa92121ecea7b971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6382fb9df4f96e32bd5830e0934b93') in 0.074824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/barrierWhite.fbx
+  artifactKey: Guid(989e27a3a342e3d46a2b0124c87edb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/barrierWhite.fbx using Guid(989e27a3a342e3d46a2b0124c87edb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1694e77fd9325799897e2024ff0fa6') in 0.049169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/lightPost_exclusive.fbx
+  artifactKey: Guid(c0358f6bed3f7ce4790520462f6e0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/lightPost_exclusive.fbx using Guid(c0358f6bed3f7ce4790520462f6e0bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7393fb3deda6e71cdb05fcfa600ca19d') in 0.067527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.141284 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/pitsOffice.fbx
+  artifactKey: Guid(6b8dd9a3991e1e04c84b4a6594e0b416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/pitsOffice.fbx using Guid(6b8dd9a3991e1e04c84b4a6594e0b416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8624908a8a9aaa4ce5d982547938908b') in 0.056813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/raceCarOrange.fbx
+  artifactKey: Guid(5b78bf88cf85100478ccf897c5688280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/raceCarOrange.fbx using Guid(5b78bf88cf85100478ccf897c5688280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa435afb6c9688b5154c232c79fa8dc5') in 0.114814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.161127 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/rail.fbx
+  artifactKey: Guid(7a3a7fc461242a64a8581e638eddf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/rail.fbx using Guid(7a3a7fc461242a64a8581e638eddf26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950a1932ffce39574bc606e780fc8ef') in 0.071427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerLargeBorder.fbx
+  artifactKey: Guid(f47bd8a8d7a7aa241aef356a94a351cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerLargeBorder.fbx using Guid(f47bd8a8d7a7aa241aef356a94a351cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dba7c27d38f644cdc55fd22b59d706') in 0.072369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerSmallSand.fbx
+  artifactKey: Guid(fc46a069a3c84484685e63487bc0d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerSmallSand.fbx using Guid(fc46a069a3c84484685e63487bc0d8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab824e25893280a6f4f1fee4c03ad6d') in 0.052286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerLargerSandInner.fbx
+  artifactKey: Guid(c42b785086f2a244eafc75effb1d0c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerLargerSandInner.fbx using Guid(c42b785086f2a244eafc75effb1d0c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34e41421010e7b30f855fc78a46f1f8') in 0.051641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerLarge.fbx
+  artifactKey: Guid(3fe1c60bc23ad264cb9982a7fbce861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerLarge.fbx using Guid(3fe1c60bc23ad264cb9982a7fbce861a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcca05b0b1c6b842133a5ad5bb589b1') in 0.062473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerLargeSand.fbx
+  artifactKey: Guid(f2b9239210c923f479ce96b1cb65495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerLargeSand.fbx using Guid(f2b9239210c923f479ce96b1cb65495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'addc3d0ab16bc208bb51d10ba982656e') in 0.050772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadPitGarage.fbx
+  artifactKey: Guid(277a559cfea24af4fba508b10850c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadPitGarage.fbx using Guid(277a559cfea24af4fba508b10850c753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144bf1b6384b9690725225a8d8d4a548') in 0.070725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadStraightBridgeMid.fbx
+  artifactKey: Guid(a743574baf2ffa04f9ed5902e659a732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadStraightBridgeMid.fbx using Guid(a743574baf2ffa04f9ed5902e659a732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ddbd8e7fd01e5a14d0464cb24a4bee') in 0.066959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadEnd.fbx
+  artifactKey: Guid(7199046fc9d497b4d986faf07774005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadEnd.fbx using Guid(7199046fc9d497b4d986faf07774005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fac1b228ce3b0aa46b5b90f8ec412c3') in 0.063929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadPitStraight.fbx
+  artifactKey: Guid(86ba21cc72ef09542901161b279943a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadPitStraight.fbx using Guid(86ba21cc72ef09542901161b279943a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e67197bedeed86cc285e23fad248922') in 0.058272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadPitEntry.fbx
+  artifactKey: Guid(fcb1ae451abc04841861310c4099451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadPitEntry.fbx using Guid(fcb1ae451abc04841861310c4099451b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35462b156133a8373cae57e58fe9eb3c') in 0.065448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadCornerLargeBorderInner.fbx
+  artifactKey: Guid(8f36b48481f513d41a1cbeb1d6492b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadCornerLargeBorderInner.fbx using Guid(8f36b48481f513d41a1cbeb1d6492b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd80df823d330bf82b4cf4648409544b') in 0.055767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadSplitSmall.fbx
+  artifactKey: Guid(d3545de7a1ab69f48bb67ab3e7c36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadSplitSmall.fbx using Guid(d3545de7a1ab69f48bb67ab3e7c36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323c5b91cd94703c254231e3e4d9d7d9') in 0.057272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadStart.fbx
+  artifactKey: Guid(01b6f55ed436a0649a4aab8d51af934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadStart.fbx using Guid(01b6f55ed436a0649a4aab8d51af934c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2397ac2b464bd970083f842419f76de') in 0.085233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/roadStraightLong.fbx
+  artifactKey: Guid(26cf09023a55aa2408514d297cd65210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/roadStraightLong.fbx using Guid(26cf09023a55aa2408514d297cd65210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd5f943c4c6f5b485430590c65afa9d') in 0.053021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/tentClosedLong.fbx
+  artifactKey: Guid(a7b055c41be2ffa4196b9e88a79c7de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/tentClosedLong.fbx using Guid(a7b055c41be2ffa4196b9e88a79c7de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5960aab0a001f2c515fe55af47c3fc44') in 0.060051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.910283 seconds.
+  path: Assets/Models/RaceKit/Models/FBX format/tentRoof.fbx
+  artifactKey: Guid(f8dc8dcece40bbb40a2f12033fa48160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RaceKit/Models/FBX format/tentRoof.fbx using Guid(f8dc8dcece40bbb40a2f12033fa48160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a8e9fff8173ee4cbf6a21d536c2422') in 0.076093 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
