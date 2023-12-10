@@ -4,11 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/Mi escena - Copy 1.unity
-    guid: 08964649d3704e74c81a52fd3e794b5d
-  - enabled: 1
-    path: Assets/Scenes/0.Splash.unity
-    guid: aa57118692ea24749aa43084202a52c7
+  m_Scenes: []
   m_configObjects: {}
