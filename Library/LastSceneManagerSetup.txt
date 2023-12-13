@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Escenas luces.unity
+- path: Assets/1) Escenas/MENU 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
