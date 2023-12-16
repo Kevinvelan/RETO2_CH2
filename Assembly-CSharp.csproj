@@ -99,6 +99,11 @@
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\CambioDeEscena.cs" />
+    <Compile Include="Assets\OtrosMateriales\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
+    <Compile Include="Assets\OtrosMateriales\Sci-fi Buttons and Panels\Sci-fi Components Resources\Scripts\JustRotate.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\ClickAndDrag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\OtrosMateriales\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -358,6 +358,8 @@
 "Assets/4) Scripts/RaceManager.cs"
 "Assets/4) Scripts/Respawn.cs"
 "Assets/4) Scripts/UIManager.cs"
+"Assets/OtrosMateriales/Sci-fi Buttons and Panels/Sci-fi Components Resources/Scripts/JustRotate.cs"
+"Assets/OtrosMateriales/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs"
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -392,6 +394,9 @@
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/OtrosMateriales/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/Scripts/CambioDeEscena.cs"
+"Assets/Scripts/ClickAndDrag.cs"
+"Assets/Scripts/ExitGame.cs"
 -langversion:9.0
 
 /deterministic
