@@ -72,19 +72,24 @@
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\4) Scripts\ExitGame.cs" />
     <Compile Include="Assets\4) Scripts\RaceManager.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\OtrosMateriales\Sci-fi Buttons and Panels\Sci-fi Components Resources\Scripts\JustRotate.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\4) Scripts\ClickAndDrag.cs" />
+    <Compile Include="Assets\4) Scripts\CambioDeEscena.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\4) Scripts\DisableTime.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\OtrosMateriales\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
     <Compile Include="Assets\4) Scripts\CameraController.cs" />
     <Compile Include="Assets\4) Scripts\CarController.cs" />
     <Compile Include="Assets\4) Scripts\CheckpointChecker.cs" />
@@ -99,11 +104,6 @@
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\CambioDeEscena.cs" />
-    <Compile Include="Assets\OtrosMateriales\Sci-Fi UI\Demo_Assets\scripts\GUI_Demo.cs" />
-    <Compile Include="Assets\OtrosMateriales\Sci-fi Buttons and Panels\Sci-fi Components Resources\Scripts\JustRotate.cs" />
-    <Compile Include="Assets\Scripts\ExitGame.cs" />
-    <Compile Include="Assets\Scripts\ClickAndDrag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\OtrosMateriales\TextMesh Pro\Shaders\TMPro.cginc" />
