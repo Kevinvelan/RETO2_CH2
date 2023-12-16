@@ -160,4 +160,8 @@ public class RaceManager : MonoBehaviour
         UIManager.instance.resultsScreen.SetActive(true);
     }
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 }

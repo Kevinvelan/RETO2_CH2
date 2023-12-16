@@ -279,7 +279,7 @@ public class CarController : MonoBehaviour
     }
 
 
-    void ResetToTrack()
+   public void ResetToTrack()
     {
         int pointToGoTo = nextCheckpoint - 1;
         if (pointToGoTo < 0)
@@ -297,4 +297,15 @@ public class CarController : MonoBehaviour
         resetCounter = resetCooldown;
     }
 
+    /*private void OnCollisionEnter(Collision collision)
+    {
+        Rigidbody rb = collision.rigidbody;
+
+        if (rb.name == Sphere & collision.gameObject.tag = "Enviroment")
+        {
+            // Chocó la rueda delantera con un objeto etiquetado como "Obstaculo"
+            ResetToTrack();
+        }
+
+    }*/
 }
