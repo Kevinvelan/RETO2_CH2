@@ -8669,9 +8669,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: colocar historia de el juego y creditos
+  m_text: "Bienvenido a Adenaline Racers el juego de carreras m\xE1s loco y con m\xE1s
+    acci\xF3n del momento. Prep\xE1rate para conducir tractores modificados de alto
+    rendimiento en pistas de obst\xE1culos a trav\xE9s de paisajes rurales impresionantes.\r\n\r\nEsta
+    no es la granja de tu abuelo. Estos veh\xEDculos agr\xEDcolas han sido equipados
+    con enormes motores, neum\xE1ticos todoterreno y suspensiones reforzadas para
+    alcanzar velocidades vertiginosas. Elige entre una amplia variedad de marcas
+    y modelos iconicos, personaliza tu tractor para maximizar su potencia y agarre,
+    y compite contra los mejores pilotos.\r\n\r\nSupera desaf\xEDos extremos como
+    rampas, tubos, lanzamientos,  y m\xE1s mientras buscas el podio. No ser\xE1 f\xE1cil
+    enfrentarte a la feroz IA de estos contrincantes rurales. Tendr\xE1s que dominar
+    derrapes controlados, usar el nitro con sabidur\xEDa y tomar atajos arriesgados
+    para tener alguna oportunidad.\r\n\r\nAs\xED que enciende ese motor di\xE9sel,
+    agarra el volante y prep\xE1rate para la experiencia Tractor Racing m\xE1s intensa
+    hasta ahora. El campeonato te est\xE1 esperando.\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99c0661fff617794597978f5caaec771, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8679,7 +8692,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0, g: 1, b: 0.14901961, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8735,7 +8748,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -1867.4613}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1825194289
@@ -10265,17 +10278,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: colocar tutorial y las instrucciones
+  m_text: "Para moverte en las pistas puedes usar las teclas A (mover hacia la izquierda)
+    y D (mover hacia la derecha) o las flechas \u2190\u2192 en tu teclado.\nCon la
+    tecla C podr\xE1s acceder a diferentes vistas del juego para hacer mas interactiva
+    la experiencIa"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 99c0661fff617794597978f5caaec771, type: 2}
+  m_sharedMaterial: {fileID: 2290884388933267444, guid: 99c0661fff617794597978f5caaec771, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4280745728
+  m_fontColor: {r: 0, g: 1, b: 0.14966917, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
