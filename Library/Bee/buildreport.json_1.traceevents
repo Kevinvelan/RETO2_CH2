@@ -1,531 +1,577 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1687310396496484, "dur": 2703045, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310396496818, "dur": 10818, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310396507641, "dur": 46111, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310396553757, "dur": 1017091, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310397570853, "dur": 1615519, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310399186375, "dur": 13151, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310399200778, "dur": 32, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888743257573, "dur": 1024629, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888743257898, "dur": 11365, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888743269264, "dur": 48396, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888743317662, "dur": 570275, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888743887940, "dur": 380066, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888744268007, "dur": 14194, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888744282737, "dur": 10, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1687310397307656, "dur": 241791, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397308654, "dur": 74122, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397525149, "dur": 6065, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397531219, "dur": 18216, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397531955, "dur": 16750, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397554297, "dur": 1208, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1687310397553487, "dur": 2047, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310399201030, "dur": 335, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743742007, "dur": 124909, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743743009, "dur": 44026, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743849016, "dur": 4492, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743853511, "dur": 13398, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743854141, "dur": 11902, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743871356, "dur": 1182, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1702888743870652, "dur": 1904, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888744282860, "dur": 281, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1687310397623000, "dur":1601, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310397624606, "dur":561, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1687310397625183, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1687310397625199, "dur":246, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1687310397625466, "dur":682, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310397626148, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399168937, "dur":134, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169071, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169085, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169089, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169095, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169096, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169108, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169109, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169115, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169122, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169124, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169129, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169130, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169137, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169139, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169146, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169168, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399169476, "dur":3043, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1687310397625656, "dur":499, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397626156, "dur":2625, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397628992, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1687310397629007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397630187, "dur":620, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1687310397630816, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1687310397630870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397631060, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1687310397634559, "dur":16943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1687310397651506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397651514, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1687310397653219, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1687310397653298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397653305, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1687310397655563, "dur":303816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310397959387, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310397959524, "dur":29976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310397989540, "dur":31955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398021503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398021529, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398023677, "dur":31261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398054940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398054946, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398056343, "dur":60375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398116733, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398116746, "dur":778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398117557, "dur":68482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398186045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398186057, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398187089, "dur":40681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398227859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398227893, "dur":6743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398234674, "dur":2594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398237271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398237311, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398239350, "dur":2771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398242128, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398242145, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398245134, "dur":976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398246113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398246122, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398247190, "dur":348048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398595273, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398595333, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398598952, "dur":181213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398780179, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398780201, "dur":27173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":1, "ts":1687310398807412, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1687310398807458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398807519, "dur":28727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1687310398836284, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1687310398836324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398836521, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1687310398837627, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1687310398837661, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398837666, "dur":8073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1687310398845777, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1687310398845813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398845821, "dur":1873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":1, "ts":1687310398847728, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1687310398847764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398847772, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1687310398848889, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1687310398849125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1687310398849133, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1687310398850550, "dur":318384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397625753, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397626206, "dur":2581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397628992, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1687310397629141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397648867, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1687310397651137, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1687310397651259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397651800, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1687310397652806, "dur":69854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1687310397722664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397722675, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1687310397723848, "dur":66363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310397790221, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310397790238, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310397794405, "dur":243711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398038124, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398038139, "dur":46214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398084486, "dur":1626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398086120, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398086129, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398087728, "dur":31337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398119079, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398119123, "dur":39753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398158917, "dur":47422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398206349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398206366, "dur":3837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398210250, "dur":938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398211191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398211198, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398213170, "dur":4197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398217425, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398217438, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398219327, "dur":2284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398221624, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398221643, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398223932, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398224213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398224222, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398225467, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398226037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398226047, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398228304, "dur":5818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398234126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398234137, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398235415, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398236360, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398236372, "dur":1580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398237990, "dur":845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398238841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398238852, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398241032, "dur":1744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398242781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398242791, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398245090, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398245643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398245657, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398246587, "dur":539446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398786041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398786052, "dur":21021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398807159, "dur":78513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398885710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1687310398886366, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":2, "ts":1687310398888188, "dur":280729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310397625698, "dur":498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310397626196, "dur":2590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310397629020, "dur":17286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1687310397646310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310397646332, "dur":6607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1687310397652994, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1687310397653174, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310397653228, "dur":2410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1687310397655676, "dur":1034053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398689736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310398689747, "dur":68672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398758464, "dur":1033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398759502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310398759511, "dur":14498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398774098, "dur":18326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398792432, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310398792445, "dur":33495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1687310398825978, "dur":10360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1687310398836342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310398836354, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1687310398837545, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1687310398837581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1687310398837586, "dur":20524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1687310398858158, "dur":310757, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397625724, "dur":477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397626201, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397629005, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1687310397629141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397630822, "dur":5650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1687310397636531, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1687310397636684, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397637136, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1687310397641305, "dur":15202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1687310397656513, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397656534, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":4, "ts":1687310397657576, "dur":167765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1687310397825349, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397825358, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1687310397827472, "dur":41069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310397868545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397868556, "dur":8415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310397877015, "dur":46760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310397923781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397923792, "dur":7643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310397931477, "dur":65631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310397997115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310397997125, "dur":13681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398010847, "dur":777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398011629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398011636, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398013411, "dur":40644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398054059, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398054101, "dur":1160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398055297, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398056167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398056175, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398057215, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398057702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398057711, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398059099, "dur":58717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398117820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398117831, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398119856, "dur":66507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398186367, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398186375, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398187539, "dur":3956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398191525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398191533, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398193342, "dur":3374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398196722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398196733, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398198663, "dur":97354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398296023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398296034, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398297183, "dur":329291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398626482, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398626496, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398628389, "dur":318999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398947393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1687310398947403, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1687310398948757, "dur":220156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397625775, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397626216, "dur":2569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397628992, "dur":17077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1687310397646078, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397646223, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1687310397650429, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1687310397650575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397650589, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1687310397651977, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1687310397652062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397652109, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1687310397653288, "dur":75201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397728492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397730582, "dur":15950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397746843, "dur":81733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397828582, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397828616, "dur":9543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397838237, "dur":38521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397876769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397876784, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397878621, "dur":38478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397917105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397917115, "dur":4053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397921214, "dur":693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397921911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397921920, "dur":3908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397925863, "dur":6096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397931964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397931975, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397934126, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397935492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397935502, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397937083, "dur":4692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397941781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397941791, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397944141, "dur":1235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397945381, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397945394, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397946753, "dur":1747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397948517, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310397948556, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310397951535, "dur":59131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398010677, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398010693, "dur":2062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398012793, "dur":2101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398014902, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398014914, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398016076, "dur":38774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398054854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398054866, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398056262, "dur":96108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398152378, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398152410, "dur":9067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398161511, "dur":49646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398211161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398211171, "dur":1935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398213145, "dur":2844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398215996, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398216009, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398217663, "dur":1086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398218755, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398218767, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398221896, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398223977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398223987, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398225337, "dur":9496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398234836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398234843, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398236434, "dur":568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398237006, "dur":67, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398237081, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398239257, "dur":3975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398243234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398243242, "dur":2080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398245499, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398246349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398246355, "dur":1186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398247572, "dur":220376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398467959, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398467974, "dur":2533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398470557, "dur":175595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398646162, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398646180, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398649352, "dur":2986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398652343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398652354, "dur":3178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398655571, "dur":323846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398979424, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1687310398979437, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1687310398982810, "dur":186104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397625830, "dur":393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397626223, "dur":2561, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397629020, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1687310397629147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397649997, "dur":2405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1687310397653008, "dur":4552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1687310397657564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397657576, "dur":3468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1687310397661085, "dur":90680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1.exe" }}
-,{ "pid":12345, "tid":6, "ts":1687310397751788, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397751824, "dur":3372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1.exe" }}
-,{ "pid":12345, "tid":6, "ts":1687310397755238, "dur":25622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397780867, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397780882, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397783250, "dur":37674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397820928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397820936, "dur":8843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397829820, "dur":38280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397868109, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310397868128, "dur":9120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310397877320, "dur":129453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398006781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398006794, "dur":4239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398011068, "dur":52093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398063171, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398063190, "dur":21104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398084336, "dur":1375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398085719, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398085742, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398087741, "dur":31666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398119412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398119423, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398120704, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398121614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398121625, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398122603, "dur":36443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398159078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398159091, "dur":2045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398161177, "dur":29824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398191008, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398191020, "dur":1705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398192764, "dur":230057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398422828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398422840, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398425079, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398425786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398425795, "dur":747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398426570, "dur":161976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398588556, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398588571, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398590371, "dur":70397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398660774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398660785, "dur":8161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398668984, "dur":2079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398671070, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398671082, "dur":23086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398694212, "dur":8761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398702986, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398703006, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398708757, "dur":211625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398920409, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1687310398920421, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1687310398923509, "dur":245406, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397625811, "dur":409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397626220, "dur":2563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397628992, "dur":64763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1687310397693761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397694304, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":7, "ts":1687310397695685, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1687310397695940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397696244, "dur":17725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":7, "ts":1687310397714014, "dur":4217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397718238, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397720999, "dur":1161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397722194, "dur":5614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397727816, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397727924, "dur":3044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397731048, "dur":89021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397820073, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397820084, "dur":7576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397827699, "dur":38683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397866389, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397866420, "dur":19409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397885871, "dur":2439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397888341, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397888355, "dur":38866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397927256, "dur":14858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397942118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310397942127, "dur":39474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310397981673, "dur":103984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398085683, "dur":24, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398085742, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398088498, "dur":2627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398091134, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398091149, "dur":969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398092149, "dur":63146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398155300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398155311, "dur":1201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398156547, "dur":3917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398160478, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398160492, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398163124, "dur":2147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398165279, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398165294, "dur":3579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398168926, "dur":128224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398297154, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398297161, "dur":57757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398354955, "dur":304640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398659603, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398659615, "dur":9327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398668980, "dur":105801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398774785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310398774796, "dur":31453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310398806302, "dur":361726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310399168032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1687310399168041, "dur":826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1687310399168895, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":7, "ts":1687310399168897, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397625877, "dur":351, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397626228, "dur":2558, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397628992, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1687310397629259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397648865, "dur":2759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1687310397651664, "dur":63834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1687310397715509, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397715528, "dur":3994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1687310397719566, "dur":34496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397754069, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397754124, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397756523, "dur":62328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397818861, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397818876, "dur":1213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397820124, "dur":43584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397863714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397863724, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397866229, "dur":113555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397979824, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397979845, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397983401, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397984426, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310397984441, "dur":2090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310397986564, "dur":39859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398026429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398026438, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398028005, "dur":1531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398029545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398029560, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398032379, "dur":15615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398048008, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398048032, "dur":5497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398053568, "dur":62049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398115625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398115638, "dur":1508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398117189, "dur":116234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398233431, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398233450, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398235749, "dur":2404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398238156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398238164, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398240873, "dur":2367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398243243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398243250, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398245668, "dur":345006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398590678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398590690, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398592098, "dur":205656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398797765, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398797780, "dur":9337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398807153, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398807524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398807532, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1687310398808527, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1687310398808651, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398808850, "dur":7127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":8, "ts":1687310398816016, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1687310398816259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398816271, "dur":20409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1687310398836715, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1687310398836753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1687310398836781, "dur":15047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Kevin Velandia/Desktop/juego exportado/BASE-RETO1_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1687310398851868, "dur":317064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1687310399176274, "dur":1818, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1687310399201443, "dur": 1246, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1687310399200743, "dur": 2026, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1702888743943924, "dur":2110, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888743946039, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1702888743946094, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1702888743946107, "dur":651, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1702888743946784, "dur":574, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888743947358, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744232929, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233016, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233039, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233176, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233197, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233206, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233213, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233216, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233220, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233254, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233260, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233262, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233266, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233269, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233274, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233276, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233280, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233283, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233287, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233289, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233293, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233296, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233299, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233302, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233306, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233309, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233313, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233315, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233320, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233323, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233327, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233329, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233334, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233348, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744233354, "dur":4631, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702888743946942, "dur":422, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743947366, "dur":6328, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743953705, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702888743953712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743955065, "dur":1836, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702888743956904, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702888743956991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743957275, "dur":5781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1702888743963057, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1702888743963376, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743963380, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1702888743968151, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743968477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743968482, "dur":2620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743971183, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743971497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743971502, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743974829, "dur":590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743975422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743975426, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743978469, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743978786, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743978790, "dur":3860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743982737, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743983024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743983028, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743987198, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743987522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743987528, "dur":5127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743992791, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743993127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888743993132, "dur":5658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888743999438, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888744000800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888744000803, "dur":5321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888744006203, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888744006802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888744006806, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702888744011402, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1702888744011497, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888744011501, "dur":10659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1702888744022350, "dur":3502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1702888744025857, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888744025867, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1702888744029444, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1702888744029546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702888744029550, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1702888744033007, "dur":199921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743946982, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743947372, "dur":6330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743953705, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1702888743954022, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743960129, "dur":22444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1702888743982668, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888743982966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743982972, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888743987250, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888743987815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743987820, "dur":5641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888743993550, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888743994029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888743994033, "dur":6018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888744000139, "dur":4460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888744004603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888744004607, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702888744009971, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702888744010063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888744010106, "dur":13090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":2, "ts":1702888744023319, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702888744023453, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702888744023466, "dur":13770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1702888744037326, "dur":195616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743946972, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743947368, "dur":6329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743953704, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702888743953958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743959160, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1702888743963873, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743964305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743964646, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743967087, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743967352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743967357, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743970561, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743970831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743970836, "dur":3338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743974302, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743974590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743974594, "dur":2700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743977377, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743977733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743977737, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743980525, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743980824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743980829, "dur":3759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743984700, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743985188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743985192, "dur":4797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743990073, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743990468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743990472, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743995132, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888743995393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888743995398, "dur":5832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888744001320, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888744001736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888744001740, "dur":4938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888744006781, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888744007269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888744007347, "dur":6574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702888744014129, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702888744014268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888744014274, "dur":11855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702888744026394, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702888744026526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888744026531, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1702888744030140, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1702888744030244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702888744030248, "dur":6154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1702888744036514, "dur":196426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743947013, "dur":362, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743947375, "dur":6323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743953703, "dur":2351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702888743956057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743958636, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1702888743963507, "dur":33384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702888743996894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743996898, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702888743999442, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702888743999841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888743999845, "dur":4558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702888744004505, "dur":5575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702888744010109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888744010114, "dur":7207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702888744017712, "dur":7616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1702888744025332, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888744025340, "dur":4399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1702888744029827, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1702888744029927, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702888744029931, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1702888744033384, "dur":199553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743947034, "dur":345, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743947379, "dur":6330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743953709, "dur":265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702888743953978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743959546, "dur":4138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1702888743963794, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743964096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743964610, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743966954, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743967230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743967234, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743970453, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743970737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743970742, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743974315, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743974710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743974715, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743977453, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743977743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743977747, "dur":3383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743981217, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743981544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743981548, "dur":5729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743987379, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743987701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743987705, "dur":4946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743992736, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743993038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743993042, "dur":5300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743998429, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888743999103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888743999108, "dur":5216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888744004423, "dur":4078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888744008504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888744008508, "dur":6370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702888744014981, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1702888744015102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702888744015106, "dur":23225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1702888744038425, "dur":194518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743947062, "dur":321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743947383, "dur":6312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743953705, "dur":2438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1702888743956217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743958822, "dur":4341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1702888743963249, "dur":23208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888743986460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743986854, "dur":2435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888743989377, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888743989644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743989648, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888743994504, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888743994928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888743994933, "dur":5207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888744000256, "dur":744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888744001003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888744001008, "dur":5050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888744006148, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888744006542, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888744006547, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702888744010966, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702888744011043, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888744011046, "dur":17665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702888744028912, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1702888744029019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702888744029024, "dur":9175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1702888744038275, "dur":194669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888743947085, "dur":302, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888743947387, "dur":6319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888743953707, "dur":3077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702888743956786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888743958795, "dur":4494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1702888743963414, "dur":51639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702888744015058, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888744015155, "dur":12383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702888744027708, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702888744027817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702888744027821, "dur":17403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level3.resS" }}
+,{ "pid":12345, "tid":7, "ts":1702888744045287, "dur":187665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743947110, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743947391, "dur":6313, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743953705, "dur":2395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1702888743956213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743958737, "dur":4615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1702888743963526, "dur":23415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race.exe" }}
+,{ "pid":12345, "tid":8, "ts":1702888743986944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743986948, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race.exe" }}
+,{ "pid":12345, "tid":8, "ts":1702888743989857, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888743990156, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743990160, "dur":4581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888743994822, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888743995198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888743995202, "dur":5417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888744000706, "dur":1562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888744002270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888744002353, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888744007466, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888744008100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888744008104, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702888744013251, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702888744013424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888744013428, "dur":17396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1702888744030923, "dur":200315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1702888744231242, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702888744231249, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1702888744232893, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1702888744232895, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702888743947131, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702888743947394, "dur":6311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702888743953712, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1702888743953995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702888743959300, "dur":4004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1702888743963452, "dur":137354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702888744100810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702888744100815, "dur":10103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702888744110976, "dur":121955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743947157, "dur":241, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743947398, "dur":6302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743953704, "dur":3133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1702888743956839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743958578, "dur":4291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1702888743962960, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1702888743963198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743963262, "dur":23244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1702888743986612, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888743986926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743986931, "dur":4655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888743991684, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888743991969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743991973, "dur":4032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888743996081, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888743996340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888743996344, "dur":5245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888744001677, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888744001942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888744001946, "dur":5358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888744007383, "dur":7017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888744014403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888744014444, "dur":11895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702888744026446, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1702888744026573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702888744026578, "dur":6781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1702888744033449, "dur":199478, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743947190, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743947402, "dur":6301, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743953705, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1702888743954080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743961668, "dur":3894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1702888743965747, "dur":1195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743966945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743967010, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743971235, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743971509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743971513, "dur":3203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743974844, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743975323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743975327, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743977785, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743978173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743978178, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743981814, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743982115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743982158, "dur":4627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743986893, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743987221, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743987225, "dur":4829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743992130, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743992396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743992400, "dur":4716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743997185, "dur":1050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888743998239, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888743998243, "dur":5292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888744003625, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888744003920, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888744003924, "dur":4091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702888744008106, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1702888744008196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888744008261, "dur":3875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1702888744012247, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1702888744012337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888744012341, "dur":4654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":11, "ts":1702888744017407, "dur":791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1702888744018203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888744018209, "dur":10829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1702888744029130, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1702888744029228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702888744029233, "dur":3090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level2.resS" }}
+,{ "pid":12345, "tid":11, "ts":1702888744032412, "dur":200518, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743947214, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743947405, "dur":6308, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743953714, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1702888743953934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743958688, "dur":4850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1702888743963691, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743963971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743964520, "dur":2246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743966851, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743967239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743967244, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743970375, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743970706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743970711, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743974177, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743974457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743974462, "dur":2193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743976748, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743977042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743977047, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743979816, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743980100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743980104, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743983331, "dur":446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743983780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743983785, "dur":4034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743987911, "dur":309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743988314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743988319, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743993670, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743993972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743993976, "dur":4821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743999017, "dur":471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888743999491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888743999495, "dur":4784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888744004367, "dur":822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888744005192, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888744005197, "dur":4125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702888744009405, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1702888744009480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888744009483, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":12, "ts":1702888744011786, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":12, "ts":1702888744011872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888744011875, "dur":14552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":12, "ts":1702888744026551, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1702888744026774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702888744026782, "dur":10898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level4" }}
+,{ "pid":12345, "tid":12, "ts":1702888744037749, "dur":195207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743947237, "dur":172, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743947409, "dur":6306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743953715, "dur":3050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1702888743956769, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743958622, "dur":4856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1702888743963567, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1702888743963760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743964192, "dur":10895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1702888743975392, "dur":879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743976320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743976325, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743979678, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743979974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743979978, "dur":3161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743983233, "dur":420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743983656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743983660, "dur":4086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743987831, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743988193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743988198, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743993615, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888743993919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888743993923, "dur":6164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888744000177, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888744000468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888744000472, "dur":5044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888744005600, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888744005885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888744005889, "dur":3399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1702888744009375, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":13, "ts":1702888744009462, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888744009465, "dur":20416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":13, "ts":1702888744029977, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1702888744030075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1702888744030080, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1702888744033530, "dur":199418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743947257, "dur":155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743947412, "dur":6300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743953712, "dur":2335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1702888743956050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743958637, "dur":4833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1702888743963576, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743963989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743964570, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743966675, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743967015, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743967018, "dur":2409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743969516, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743969813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743969818, "dur":3569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743973683, "dur":778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743974464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743974474, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743977244, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743977762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743977804, "dur":2966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743980856, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743981140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743981144, "dur":5637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743986873, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743987170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743987175, "dur":4641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743991902, "dur":1985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888743993890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888743993895, "dur":6145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888744000221, "dur":560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888744000784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888744000787, "dur":4770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888744005647, "dur":1859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888744007509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888744007514, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1702888744012008, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1702888744012101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1702888744012104, "dur":36872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1702888744049039, "dur":183893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743947278, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743947416, "dur":6291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743953708, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1702888743954091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743963198, "dur":23256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":15, "ts":1702888743986586, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888743986953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743986957, "dur":4249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888743991290, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888743991574, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743991579, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888743996113, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888743996779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888743996784, "dur":5348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888744002223, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888744002634, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888744002638, "dur":4706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888744007428, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888744008046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888744008050, "dur":4956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1702888744013098, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":15, "ts":1702888744013223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1702888744013228, "dur":32917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":15, "ts":1702888744046238, "dur":186697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743947301, "dur":119, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743947420, "dur":6279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743953704, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1702888743953919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743958559, "dur":4457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1702888743963128, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1702888743963347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743963352, "dur":6477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":16, "ts":1702888743969909, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743970206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743970211, "dur":4074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743974781, "dur":4404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743979189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743979194, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743984663, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743984987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743984992, "dur":4586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743989664, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743989950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743989955, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743994767, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888743995118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888743995196, "dur":5665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888744000946, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888744001350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888744001354, "dur":6468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888744007930, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888744008782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888744008786, "dur":8147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":16, "ts":1702888744017109, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1702888744017245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888744017250, "dur":12049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":16, "ts":1702888744029400, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles export/Reto2_Race_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1702888744029522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1702888744029525, "dur":4142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"export/Reto2_Race_Data/level2" }}
+,{ "pid":12345, "tid":16, "ts":1702888744033868, "dur":199071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702888744241878, "dur":1831, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1702888744283375, "dur": 4471, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1702888744282727, "dur": 5144, "ph": "X", "name": "Write chrome-trace events", "args": {} },

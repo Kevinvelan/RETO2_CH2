@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 95
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 64
+  controlID: 96
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 65
+  controlID: 97
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,7 +403,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 363efdffa85ffdff2066fdffa869fdfff071fdff8073fdff0c74fdff307bfdff40b2fdff40e9fdff16f2fdfff628feff6a31feff3868feffd270feffe6a7feff34b0feff60b3feffece8feffb628ffff3433ffff943dffff7442ffff7642ffffde77ffff32adffff2ed2ffff0ad7ffffc6d8ffff64f0ffff94f9ffff18fbffff64b90300feb903001cba030076ba030086ba0300c8ba0300eeba03000cbb03003abb0300f4210400ec2b0400a28b0400cc8e040032d50400ccf30400469e05008e070600980806002826060050f306005afd060012b1070054b1070020b207002eb20700e00e0800ba0f0800c02c08000c300800e6300800243908006c390800463a0800
+      m_ExpandedIDs: 76d8feffc4d8feff70dafeffa60fffff7817ffffe617ffff1218ffffd418ffff5057fffffa8dffff2c97ffff5aa0ffffe2a8ffffaedfffffdce8ffff2eecffff94edffff80f5ffff08faffff18fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -686,9 +686,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1137.594, y: 368.40662, z: 123.20181}
+    m_Target: {x: 362.33746, y: 465.98758, z: -235.08339}
     speed: 2
-    m_Value: {x: 1137.594, y: 368.40662, z: 123.20181}
+    m_Value: {x: 362.33746, y: 465.98758, z: -235.08339}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -735,13 +735,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04379562, y: -0.0024004465, z: 0.00010324194, w: -0.99905014}
+    m_Target: {x: -0.14974527, y: -0.002375297, z: 0.00036170066, w: -0.9887344}
     speed: 2
-    m_Value: {x: -0.04229647, y: -0.002400569, z: 0.000099639736, w: -0.9991023}
+    m_Value: {x: -0.14826013, y: -0.002375807, z: 0.00035813262, w: -0.9889454}
   m_Size:
-    m_Target: 816.4434
+    m_Target: 1031.8198
     speed: 2
-    m_Value: 854.91455
+    m_Value: 842.30194
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -808,23 +808,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BOTONES/Sci-fi Buttons and Panels/Sci-fi Components Resources/Sliced
-      elements/Part01
+    - Assets/1) Escenas
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/BOTONES/Sci-fi Buttons and Panels/Sci-fi Components Resources/Sliced elements/Part01
+  - Assets/1) Escenas
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\NUSO\Desktop\adrenaline_racers\RETO2_CH2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 141}
-    m_SelectedIDs: 226e0000
-    m_LastClickedID: 28194
-    m_ExpandedIDs: 00000000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d0000ec5d0000f45d0000f85d0000fa5d0000085e0000406e0000446e00004c6e00007c1008007e100800801008008210080000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: f65a0000
+    m_LastClickedID: 23286
+    m_ExpandedIDs: 00000000d45a0000d65a0000d85a0000da5a0000dc5a0000de5a0000e05a0000e25a0000e45a0000e65a0000e85a0000ea5a0000ec5a0000ee5a0000f05a0000045b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -852,7 +851,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c85d0000ca5d0000cc5d0000ce5d0000d05d0000d25d0000d45d0000d65d0000d85d0000da5d0000dc5d0000de5d0000e05d0000e25d0000e45d0000
+    m_ExpandedIDs: 00000000d45a0000d65a0000d85a0000da5a0000dc5a0000de5a0000e05a0000e25a0000e45a0000e65a0000e85a0000ea5a0000ec5a0000ee5a0000f05a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
