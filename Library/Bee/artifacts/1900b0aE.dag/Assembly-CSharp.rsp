@@ -358,6 +358,7 @@
 "Assets/4) Scripts/ClickAndDrag.cs"
 "Assets/4) Scripts/DisableTime.cs"
 "Assets/4) Scripts/ExitGame.cs"
+"Assets/4) Scripts/MenuPausa.cs"
 "Assets/4) Scripts/RaceManager.cs"
 "Assets/4) Scripts/Respawn.cs"
 "Assets/4) Scripts/UIManager.cs"
