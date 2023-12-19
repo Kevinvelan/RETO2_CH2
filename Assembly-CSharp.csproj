@@ -94,6 +94,7 @@
     <Compile Include="Assets\4) Scripts\CarController.cs" />
     <Compile Include="Assets\4) Scripts\CheckpointChecker.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\4) Scripts\MenuPausa.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\OtrosMateriales\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
